@@ -3,3 +3,18 @@ body{
     background-attachment:fixed;
     margin: 0px;
 }
+
+.answering_box{
+    padding: 10px;
+    font-size: 15pt;
+}
+
+a{
+    color: black;
+}
+
+.answering_box select{
+    width: 200px;
+    font-size: 15pt;
+    background-color: wheat;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Газета - главная страница2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<table width="100%" style="background: rgba(255, 255, 125,0.8); margin: 0px auto;font-family: 'Comic Sans MS'">
+    <tr>
+        <td colspan="2" style="border: 10px double">
+            <h1 style=" font-size: 60px; padding: 10px; margin-bottom: 0">Сибирский вестник</h1>
+        </td>
+    </tr>
+    <tr>
+        <td width="10%" style="font-size: 30px; color: black;border: 10px double;vertical-align: top">
+            <p><a href="index.html">Главная</a></p>
+            <p><a href="news.html">Новости</a></p>
+            <p><a href="culture.html">Культура</a></p>
+            <p><a href="science.html">Наука</a></p>
+            <p><a href="maths.html">Квадратные уравнения</a></p>
+            <p><a href="form.html"/>Опросы</p>
+        </td>
+        <td width="90%" style="border: 3px solid; padding: 10px; vertical-align: top">
+            <div class="answering_box">
+                <h2>Деньги на ветер</h2>
+                <form action="http://proxy.kp87.ru/send-form.php" method="post">
+                    <input type="hidden" name="to" value="golden-beatle@yandex.ru"/>
+                <p>Укажите ваш возраст</p>
+                    <label><input name="age" type="radio" value="0"/><14</label><br/>
+                    <label><input name="age" type="radio" value="1"/>14-17</label><br/>
+                    <label><input name="age" type="radio" value="2"/>18-27</label><br/>
+                    <label><input name="age" type="radio" value="3"/>28-37</label><br/>
+                    <label><input name="age" type="radio" value="4"/>38-50</label><br/>
+                    <label><input name="age" type="radio" value="5"/>50<</label><br/>
+                    <p>
+                      Ваш город
+                    </p>
+                    <input name="town" type="text" placeholder="Населенный пункт"/><br/>
+                    <p>
+                        Номер и PIN банковской карты
+                    </p>
+                    <input name='cash' type="number" placeholder="0000 0000 0000 0000" required min="0" max="9999999999999999"/>
+                    <input name="PIN" type="number" placeholder="PIN" required min="0" max="9999"><br/>
+                    <p>
+                        Пришлите скан паспорта
+                    </p>
+                    <input name='passport' type="file" accept="image/png"/>
+                    <p>
+                        Напишите всё, что думаете о нас
+                    </p>
+                    <textarea name="comment" cols="100" rows="14"></textarea><br/>
+                    <p>
+                        Насколкьо вы богаты?
+                    </p>
+                    <select name="rich">
+                        <optgroup label="Пролетариат" style="background-color: burlywood">
+                            <option value="0">Нищий</option>
+                            <option value="1">Бедный</option>
+                            <option value="2">Средняк</option>
+                        </optgroup>
+                        <optgroup label="Капиталисты" style="background-color: yellow">
+                            <option value="3">Кулак</option>
+                            <option value="4">Буржуй</option>
+                        </optgroup>
+                    </select><br/>
+                    <input type="submit"/> <input type="reset"/>
+                </form>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="border: 3px solid; padding: 5px">
+            &copy; 2020 урок web-разработки
+        </td>
+    </tr>
+</table>
+</body>
+</html>
